@@ -1,0 +1,4 @@
+Settings:
+
+ping frequencey,
+disable sending or recieving,

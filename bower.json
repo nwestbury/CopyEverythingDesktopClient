@@ -4,6 +4,11 @@
     "ember": "~2.5.0",
     "ember-cli-shims": "0.1.1",
     "ember-cli-test-loader": "0.2.2",
-    "ember-qunit-notifications": "0.1.0"
+    "ember-qunit-notifications": "0.1.0",
+    "bootstrap-sass": "^3.3.6",
+    "hammer.js": "^2.0.8",
+    "matchMedia": "0.2.0",
+    "uri.js": "^1.18.0",
+    "socket.io-client": "^1.4.6"
   }
 }

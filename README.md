@@ -1,6 +1,6 @@
 # Copy Everything Desktop Client
 
-This README how to run this file.
+This README explains how to run this project.
 
 ## Prerequisites
 

@@ -6,7 +6,7 @@ const path                 = require('path');
 const {app, BrowserWindow} = electron;
 const dirname              = __dirname || path.resolve(path.dirname());
 const emberAppLocation     = `file://${dirname}/dist/index.html`;
-const iconPath              = path.join(dirname, 'img', 'logo.jpg')
+const iconPath              = path.join(dirname, 'img', 'logo.jpg');
 
 let mainWindow = null;
 
@@ -32,8 +32,8 @@ app.on('ready', function onReady() {
 	minHeight: 450,
         width: 800,
         height: 600,
-	maxWidth: 800,
-	maxHeight: 600,
+	maxWidth: 1600,
+	maxHeight: 1200,
 	title: "Copy Everything",
 	icon: iconPath
     });
@@ -73,8 +73,6 @@ app.on('ready', function onReady() {
     mainWindow.on('closed', () => {
         mainWindow = null;
     });
-
-    mainWindow.setMenu(null);
 
     // Handle an unhandled error in the main thread
     //

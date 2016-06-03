@@ -21,8 +21,8 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
-    "devtron": "1.1.2",
     "electron-packager": "7.0.2",
+    "electron-prebuilt": "1.2.1",
     "electron-rebuild": "1.1.5",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.5.0",
@@ -37,10 +37,9 @@
     "ember-cli-qunit": "^1.4.0",
     "ember-cli-release": "0.2.8",
     "ember-cli-sass": "5.3.1",
-    "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.5.0",
-    "ember-electron": "1.5.2",
+    "ember-electron": "1.6.0",
     "ember-export-application-global": "^1.0.5",
     "ember-inspector": "1.10.0",
     "ember-load-initializers": "^0.5.1",
@@ -53,10 +52,10 @@
   },
   "main": "electron.js",
   "ember-electron": {
-    "WHAT IS THIS?": "Please see the README.md",
     "copy-files": [
       "electron.js",
-      "package.json"
+      "package.json",
+      "img/*"
     ],
     "name": null,
     "platform": null,
